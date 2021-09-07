@@ -5,6 +5,7 @@
   "scripts": {
     "test": "npm run cypress",
     "predeploy": "npm run build",
+    "export": "next export && touch out/.nojekyll",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
